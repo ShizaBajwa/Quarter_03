@@ -65,7 +65,7 @@ elif choice == "Retrieve Data":
                 st.error(f" Incorrect passkey! Attempts remaining: {3 - st.session_state.failed_attempts}")
 
                 if st.session_state.failed_attempts >= 3:
-                    st.warning("\ Too many failed attempts! Redirecting to Login Page.")
+                    st.warning("Too many failed attempts! Redirecting to Login Page.")
                     st.experimental_rerun()
         else:
             st.error("Both fields are required!")
