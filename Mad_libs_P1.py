@@ -6,7 +6,7 @@ def madlibs():
     # Pre-filled inputs
     name = "Shiza"
     age = "21"
-    city = "Zarafina"
+    city = "Karachi"
     profession = "space engineer"
     magical_creature = "griffin"
     adjective1 = "fearless"
